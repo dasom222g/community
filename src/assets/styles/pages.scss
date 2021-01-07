@@ -1,0 +1,28 @@
+// 레이아웃
+.wrap {
+  margin: 0 auto;
+  overflow: hidden;
+  height: 100%;
+  .inner-wrap {
+    height:100%;
+    overflow: auto;
+    padding: 10px;
+    background-color: $gray-200;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+.header {
+  &__list {
+    display: flex;
+  }
+}
+
+.user {
+  &__image {
+    width: 48px;
+    height: 48px;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+}
