@@ -14,7 +14,12 @@
             class="liz-input__element"
           >
         </li>
-        <li class="alarm"></li>
+        <li class="alarm">
+          <i class="mdi mdi-bell-outline"></i>
+          <strong class="alarm__count">
+            <span class="hidden">확인하지 않은 알람 갯수</span>5
+          </strong>
+        </li>
         <li class="user">
           <div class="user__image">
             <img src="../images/user.jpg" alt="user image">
@@ -71,12 +76,57 @@
       </ul>
       <button type="button" class="button-border">Logout</button>
     </nav>
-    <section class="container">
+    <section class="section">
+      <article class="content">
+        <strong class="title">My Page</strong>
+        <div class="card">
+          <div class="card__item">
+            <ul class="info">
+              <li class="info__item info__item--image">
+                <div class="info__imagearea">
+                  <img src="" alt="user image">
+                </div>
+                <div class="info__textarea">
+                  <span class="info__title">Kelly</span>
+                  <span class="info__sub">Frontend Developer</span>
+                </div>
+                <div class="info__buttonarea">
+                  <button class="button-bg">Edit</button>
+                </div>
+              </li>
+              <div class="info__item">
+                <div class="info__textarea ta-center">
+                  <span class="info__title">69</span>
+                  <span class="info__sub">Shots</span>
+                </div>
+                <div class="info__textarea ta-center">
+                  <span class="info__title">2747</span>
+                  <span class="info__sub">Followers</span>
+                </div>
+                <div class="info__textarea ta-center">
+                  <span class="info__title">678</span>
+                  <span class="info__sub">Following</span>
+                </div>
+                <div class="info__textarea ta-center">
+                  <span class="info__title">78</span>
+                  <span class="info__sub">Lightning</span>
+                </div>
+              </div>
+              <div class="info__item info__item--message">
+                <div class="info__messagearea">
+                  <i class="mdi mdi-email blue"></i>
+                  <span class="text">Message</span>
+                </div>
+                <div class="info__buttonarea">
+                  <button class="button-bg button-bg--gray">Follow</button>
+                </div>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </article>
       <article class="content"></article>
       <article class="content"></article>
-      <article class="content"></article>
-      <article class="content"></article>
-      <article class="content">dsdsdfsfss</article>
     </section>
     <aside class="aside"></aside>
   </div>
@@ -105,20 +155,6 @@ export default {
   created() {},
   mounted() {},
   methods: {
-    update(e) {
-      if (e.target.value !== '') {
-        this.input.buttonArea = true
-        return
-      } else {
-        this.input.buttonArea = false
-        return
-      }
-    },
-    remove() {
-      this.input.value = ''
-      this.input.buttonArea = false
-      this.$refs.search.focus()
-    }
   }
 }
 </script>
