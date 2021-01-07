@@ -128,7 +128,20 @@
       <article class="content"></article>
       <article class="content"></article>
     </section>
-    <aside class="aside"></aside>
+    <aside class="aside">
+      <div class="note">
+        <strong class="note__title">
+          Note <span class="note__count">3</span>
+        </strong>
+        <div class="box">
+          <ul class="box__list">
+            <li class="box__item">
+              text
+            </li>
+          </ul>
+        </div>
+      </div>
+    </aside>
   </div>
 </template>
 
