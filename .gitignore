@@ -1,3 +1,8 @@
 node_modules
+<<<<<<< HEAD
 /dist
 /.cache
+=======
+dist
+.cache
+>>>>>>> 5e31a2e24cad40a72ed547c1fd3ce21672d861c0
