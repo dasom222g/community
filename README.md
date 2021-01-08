@@ -1,5 +1,7 @@
 # Community
-![my_page](https://user-images.githubusercontent.com/50973005/103971945-35e10c80-51af-11eb-8e5e-7588ff1913f3.jpg)
+<img src="https://user-images.githubusercontent.com/50973005/103971945-35e10c80-51af-11eb-8e5e-7588ff1913f3.jpg"  width="100%">
+
+---------------------------------------
 
 ## Getting Started
 Before we get started, you'll need to install Node and Yarn (or npm) and create a ```package.json``` for your project if you haven't already.
