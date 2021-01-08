@@ -16,7 +16,7 @@ _You can use Yarn or NPM_
 
     npm install
     npm install -g parcel-bundler
-_If you get an error like ```Error: EACCES: permission denied, access '/usr/local/lib/node_modules```, run it together_
+_If you get an error like ```Error: EACCES: permission denied, access '/usr/local/lib/node_modules' ```, run it together_
 
     sudo npm install -g parcel-bundler
 ### OR
