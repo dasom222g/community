@@ -1,6 +1,5 @@
 # Community
-![메인 이미지](./image/my_page.jp)
-<img src="./image/my_page.jpg" width="40%" height="30%" title="px(픽셀) 크기 설정" alt="메인 이미지"></img>
+![my_page](https://user-images.githubusercontent.com/50973005/103971945-35e10c80-51af-11eb-8e5e-7588ff1913f3.jpg)
 
 # Getting Started
 Before we get started, you'll need to install Node and Yarn (or npm) and create a ```package.json``` for your project if you haven't already.
