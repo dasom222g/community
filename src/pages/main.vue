@@ -6,7 +6,7 @@
 
 <script>
 import Overview from './overview'
-import common from '../script/common.js'
+import common from '../assets/script/common.js'
 
 export default {
   name: 'Main',

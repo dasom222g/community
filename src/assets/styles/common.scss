@@ -12,6 +12,13 @@ body {
   font-family: 'Noto Sans KR', sans-serif;
   font-weight:400;
 }
+button, input, textarea{
+  -webkit-appearance: none;
+  border:0;
+  // outline: 0;
+  all: unset;
+}
+
 button{
   @include resetButton;
   font-size: inherit;
@@ -80,11 +87,7 @@ a:hover {
     height: 0;
   }
 }
-button, input, textarea{
-  -webkit-appearance: none;
-  border:0;
-  outline: 0;
-}
+
 input {
   color: inherit;
   font-size: inherit;
@@ -93,7 +96,7 @@ input {
     color: $gray-400 !important;
   }
 }
-*{
+*, button{
   box-sizing: border-box;
 }
 h1,h2,h3,h4,h5,h6{
@@ -111,7 +114,7 @@ strong {
   font-weight: 400;
 }
 
-.bold{font-weight: 600 !important;}
+.bold{font-weight: 700 !important;}
 .ta-left{text-align: left !important;}
 .ta-center{text-align: center !important;}
 .ta-right{text-align: right !important;}
@@ -154,6 +157,13 @@ select {
   }
 }
 
+.mdi {
+  display: inline-block;
+  &::before {
+    display: block;
+  }
+}
+
 input::placeholder, textarea::placeholder{
   color: rgba(0,0,0,0.87);
   opacity: .6;
@@ -165,6 +175,8 @@ input:disabled{
 
 .hidden {
   position: absolute;
+  top: 1px;
+  left: 1px;
   white-space: nowrap;
   width: 1px;
   height: 1px;

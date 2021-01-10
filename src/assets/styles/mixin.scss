@@ -1,6 +1,6 @@
 //폰트사이즈 rem
 @function rem($size) {
-  $default-size: 14px;
+  $default-size: 16px;
   $remSize: $size / $default-size;
   @return #{$remSize}rem;
 }
