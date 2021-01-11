@@ -1,6 +1,7 @@
 # Community
 
-<img src="https://https://user-images.githubusercontent.com/50973005/104182672-2504f500-5454-11eb-85c4-8ae295c2db4b.gif"  width="100%">
+![community](https://user-images.githubusercontent.com/50973005/104182950-92188a80-5454-11eb-8b14-8abbbe504862.gif)
+<!-- <img src="https://https://user-images.githubusercontent.com/50973005/104182672-2504f500-5454-11eb-85c4-8ae295c2db4b.gif"  width="100%"> -->
 
 ---------------------------------------
 
