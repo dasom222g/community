@@ -33,7 +33,7 @@
             <div class="comment__title">
               <div class="user-info">
                 <div class="imagearea">
-                  <img :src="`../assets/images/${item.image}.jpg`" alt="user image">
+                  <img :src="item.image" alt="user image">
                 </div>
                 <div class="textarea">
                   <span class="textarea__title">{{ `@ ${item.userId}` }}</span>
@@ -91,7 +91,7 @@ export default {
             id: 1,
             userId: 'dasom228',
             time: '5 days',
-            image: 'user',
+            image: require('../assets/images/dasom.jpg'),
             like: false,
             likeCount: 35,
             content: `It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here'`
@@ -99,7 +99,7 @@ export default {
             id: 2,
             userId: 'evan01',
             time: '5 minutes',
-            image: 'user',
+            image: require('../assets/images/tube.jpg'),
             like: false,
             likeCount: 2,
             content: `"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.`
@@ -136,7 +136,7 @@ export default {
           id: this.comment.items.length + 1,
           userId: 'test',
           time: '1 seconds',
-          image: 'user',
+          image: require('../assets/images/rion.jpg'),
           like: false,
           likeCount: 0,
           content: this.comment.input,

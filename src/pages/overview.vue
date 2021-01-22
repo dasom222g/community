@@ -272,11 +272,11 @@ export default {
 .count {
   font-size: rem(12px);
   background-color: $green;
-  display: inline-block;
-  text-align: center;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   width: 20px;
   height: 20px;
-  line-height: 22px;
   color: $white;
   border-radius: 100%;
 }
